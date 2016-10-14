@@ -1,5 +1,9 @@
 # fos_user:
 #     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
 module_client_website_portal:
     resource: "@moduleClientWebsitePortalBundle/Resources/config/routing.yml"
     prefix:   /

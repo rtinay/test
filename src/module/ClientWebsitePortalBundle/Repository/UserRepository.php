@@ -1,7 +1,10 @@
 <?php
 
 namespace module\ClientWebsitePortalBundle\Entity;
-
+use Doctrine\ORM\EntityRepository;
+use Doctrine\DBAL\DriverManager;
+use module\QuestionnaireBundle\Entity\Response;
+use Symfony\Component\Config\Definition\Exception\Exception;
 /**
  * UserRepository
  *

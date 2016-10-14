@@ -22,7 +22,7 @@ class AppKernel extends Kernel
             new module\ClientWebsitePortalBundle\moduleClientWebsitePortalBundle(),
             
             // required module
-            //new FOS\UserBundle\FOSUserBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
 
         ];
 
