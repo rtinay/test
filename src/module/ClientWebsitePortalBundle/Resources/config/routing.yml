@@ -1,0 +1,18 @@
+module_client_website_portal_homepage:
+    path:     /
+    defaults: { _controller: moduleClientWebsitePortalBundle:Main:homePage }
+    
+user_registration:
+    path:     /register
+    defaults: { _controller: moduleClientWebsitePortalBundle:Registration:register }
+login:
+    path: /login
+    defaults:
+        _controller: moduleClientWebsitePortalBundle:Security:login
+
+login_check:
+    path: /login_check
+
+logout:
+    path: /logout
+

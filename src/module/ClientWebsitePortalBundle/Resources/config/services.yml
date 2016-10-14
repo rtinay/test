@@ -1,0 +1,4 @@
+services:
+#    module_client_website_portal.example:
+#        class: module\ClientWebsitePortalBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

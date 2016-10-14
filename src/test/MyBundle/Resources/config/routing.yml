@@ -1,0 +1,6 @@
+test_my_homepage:
+    path:     /
+    defaults: { _controller: testMyBundle:Default:index }
+test_my_helloworld:
+    path:     /hello
+    defaults: { _controller: testMyBundle:Test:index }

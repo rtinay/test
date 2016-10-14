@@ -1,0 +1,13 @@
+# fos_user:
+#     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+module_client_website_portal:
+    resource: "@moduleClientWebsitePortalBundle/Resources/config/routing.yml"
+    prefix:   /
+
+test_my:
+    resource: "@testMyBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
