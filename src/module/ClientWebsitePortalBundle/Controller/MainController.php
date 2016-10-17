@@ -3,8 +3,11 @@
 namespace module\ClientWebsitePortalBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
 class MainController extends Controller {
+
     public function homePageAction() {
 
 	    if (!$this->get('security.authorization_checker')->isGranted('ROLE_USER')) {
